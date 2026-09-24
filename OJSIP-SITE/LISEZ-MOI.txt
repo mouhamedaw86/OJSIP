@@ -1,0 +1,35 @@
+SITE OJSIP
+
+1) Décompressez ce dossier.
+2) Double-cliquez sur index.html pour voir le site.
+3) Fichiers à modifier :
+   - index.html      : les textes et le bureau
+   - css/styles.css  : les couleurs et la mise en page
+   - js/main.js      : le formulaire de contact
+   - images/         : le logo et les photos
+
+4) NOUVELLE SECTION "GALERIE" (Olympiades, Fêtes, Autres activités)
+   Cette section est prête, elle attend juste vos fichiers. Tant qu'un
+   fichier n'existe pas, une image "Photo à ajouter" s'affiche à sa place
+   automatiquement — vous n'avez rien à modifier dans le HTML.
+
+   a) PHOTOS : déposez vos images dans le dossier images/galerie/ en les
+      nommant EXACTEMENT comme ceci (formats .jpg conseillés) :
+        images/galerie/olympiades-1.jpg  à  olympiades-6.jpg
+        images/galerie/fetes-1.jpg       à  fetes-6.jpg
+        images/galerie/activites-1.jpg   à  activites-6.jpg
+
+      Besoin de plus de 6 photos dans une catégorie ? Copiez une ligne
+      <img ...> dans index.html (section "GALERIE"), changez le numéro
+      et le nom de fichier.
+
+   b) VIDÉOS : déposez vos fichiers .mp4 dans le dossier videos/, nommés :
+        videos/olympiades.mp4
+        videos/fetes.mp4
+        videos/activites.mp4
+
+      Conseil : compressez vos vidéos avant de les mettre en ligne
+      (HandBrake, ou export "web/mobile" depuis votre téléphone) pour que
+      le site reste rapide — visez moins de 50-80 Mo par vidéo.
+
+5) Pour publier gratuitement : Netlify (Netlify Drop) ou GitHub Pages.
